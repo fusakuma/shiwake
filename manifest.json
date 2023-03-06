@@ -1,0 +1,16 @@
+{
+  "name": "msgtest",
+  "version": "1",
+  "manifest_version": 3,
+  "description": "ダウンロードファイル仕分け",
+  "background": {
+    "service_worker":"back.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [ "実行するサイトURL" ],
+      "js": [ "script.js" ]
+    }
+  ],
+  "permissions": ["downloads","tabs","scripting","nativeMessaging"]
+}

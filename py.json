@@ -1,0 +1,9 @@
+{
+    "name": "native_python_filemv",
+    "description": "python",
+    "path": "C:\\path\\to\\shiwake\\py.bat",
+    "type": "stdio",
+    "allowed_origins": [
+      "chrome-extension://拡張機能ID/"
+    ]
+  }
